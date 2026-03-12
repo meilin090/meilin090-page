@@ -1,0 +1,37 @@
+project:
+  type: website
+
+website:
+  title: "陈美林 - 水土保持与荒漠化防治"
+  navbar:
+    left:
+      - href: index.qmd
+        text: 首页
+      - about.qmd
+        text: 首页
+        - href: research.qmd
+        text: 科研经历
+      - href: projects.qmd
+        text: 项目成果
+    right:
+      - icon: github
+        href: https://github.com/meilin090  # 你的GitHub用户名
+      - icon: envelope
+        href: mailto:2806048253@qq.com
+      - text: "简历PDF"
+        href: 陈美林-简历.pdf  # 你可以上传简历PDF文件
+  
+  page-footer:
+    center: "© 2026 陈美林 - 西南大学 | 华中农业大学"
+
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
